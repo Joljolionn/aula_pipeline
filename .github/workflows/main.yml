@@ -26,3 +26,9 @@ jobs:
 
       - name: Rodas Testes
         run: pytest
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Realizar deploy
+        run: echo "Deploy bem sucedido"
