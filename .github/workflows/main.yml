@@ -28,6 +28,7 @@ jobs:
         run: pytest
   deploy:
     runs-on: ubuntu-latest
+    needs: build
 
     steps:
       - name: Realizar deploy
