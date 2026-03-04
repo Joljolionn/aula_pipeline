@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkot código
+      - name: Checkout código
         uses: actions/checkout@v3
 
       - name: Configurar Python
