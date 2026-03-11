@@ -33,7 +33,8 @@ jobs:
     deploy:
         runs-on: ubuntu-latest
         needs: test
-
+        environment:
+            name: production
         steps:
             - name: Realizar deploy
               run: echo "Deploy bem sucedido"
